@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
 # adds bintray keys and trust
 ADD https://dl.bintray.com/php-alpine/key/php-alpine.rsa.pub /etc/apk/keys/php-alpine.rsa.pub
